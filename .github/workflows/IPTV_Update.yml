@@ -65,6 +65,11 @@ jobs:
         rm -f EPG.xml && wget https://epg.112114.xyz/pp.xml -O EPG.xml
         echo "Auto Update IPTV in ${{ steps.date.outputs.date }},基于Moexin/IPTV项目修改" > README.md
 
+    - name: Save Livelist-QI.m3u
+      run: |
+        mv Livelist-QI.m3u ../Livelist-QI.m3u.bak
+      if: success()
+
     - name: Clean
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
@@ -74,6 +79,12 @@ jobs:
         git commit -am "${{ steps.date.outputs.date }}"
         git branch -D main
         git branch -m main
+      if: success()
+
+    - name: Restore Livelist-QI.m3u
+      run: |
+        mv ../Livelist-QI.m3u.bak Livelist-QI.m3u
+      if: success()
 
     - name: Push
       run: git push -f origin main
