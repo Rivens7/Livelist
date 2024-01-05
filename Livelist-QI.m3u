@@ -1,0 +1,21 @@
+#EXTM3U
+#EXTINF:-1 group-title="虎牙直播",虎牙-TheShy
+http://m.bestshy.fun:8465/huya/991111
+#EXTINF:-1 group-title="虎牙直播",虎牙英雄联盟赛事
+http://m.bestshy.fun:8465/huya/lpl
+#EXTINF:-1 group-title="哔站直播",哔哩哔哩英雄联盟赛事
+http://m.bestshy.fun:8465/bilibili/6?hotRank=0&session_id=1d2f3a8881276ee7beabcfd55f1a9787_22FFBE67-D7B5-441D-9F09-980B4931E684&live_from=77002&visit_id=mqx7r4x0bqo
+#EXTINF:-1 group-title="抖音直播",小苏瑾c
+http://m.bestshy.fun:8465/douyin/169366055494
+#EXTINF:-1 group-title="抖音直播",鹿温悠~
+http://m.bestshy.fun:8465/douyin/539546175262
+#EXTINF:-1 group-title="抖音直播",依一_yiyi
+http://m.bestshy.fun:8465/douyin/72000923799
+#EXTINF:-1 group-title="抖音直播",冷一
+http://m.bestshy.fun:8465/douyin/234145004593?is_aweme_tied=1
+#EXTINF:-1 group-title="抖音直播",彤五岁
+http://m.bestshy.fun:8465/douyin/285710804932?is_paidlive=0&video_id=7304897586769464073&watch_paidlive_status=regular
+#EXTINF:-1 group-title="抖音直播",蛋挞酱
+http://m.bestshy.fun:8465/douyin/466848309527?is_aweme_tied=1
+#EXTINF:-1 group-title="抖音直播",周余
+http://m.bestshy.fun:8465/douyin/879459928208
