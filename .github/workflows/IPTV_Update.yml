@@ -1,4 +1,4 @@
-name: IPTV_Update
+name: Update
 
 on:
   watch:
@@ -10,7 +10,7 @@ env:
   TZ: Asia/Shanghai
 
 jobs:
-  IPTV_Update:
+  Update:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
@@ -20,7 +20,7 @@ jobs:
       id: date
       run: echo "::set-output name=date::$(date +'%Y-%m-%d %H:%M:%S CST')"
 
-    - name: IPTV_Update
+    - name: Update
       run: |
         # 央视源
         rm -f CCTV.m3u && wget https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u -O CCTV.m3u
